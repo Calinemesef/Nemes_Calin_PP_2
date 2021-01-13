@@ -57,4 +57,14 @@ public class Aufgabe {
     public void setTeilaufgaben(ArrayList<Aufgabe> teilaufgaben) {
         this.teilaufgaben = teilaufgaben;
     }
+
+    @Override
+    public String toString() {
+        return "Aufgabe{" +
+                "name='" + name + '\'' +
+                ", prioritat=" + prioritat +
+                ", notize='" + notize + '\'' +
+                ", teilaufgaben=" + teilaufgaben +
+                '}';
+    }
 }
